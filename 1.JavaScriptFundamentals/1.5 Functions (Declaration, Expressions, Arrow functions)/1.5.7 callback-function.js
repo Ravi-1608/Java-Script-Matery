@@ -14,7 +14,7 @@
 
             5.  Middleware in express.
 
-        2.  Call backs are mainly used for asynchronous operations in javascript, for example in node js, functions like fs.radFile use callbacks to handle a result after a file is read.
+        2.  Call backs are mainly used for asynchronous operations in javascript, for example in node js, functions like fs.readFile use callbacks to handle a result after a file is read.
 
         3.  Sometime if we use many nested call backs , the code becomes hard to read & we call that callback hell.
 
