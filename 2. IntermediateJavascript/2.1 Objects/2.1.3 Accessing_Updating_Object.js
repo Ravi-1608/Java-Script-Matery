@@ -29,9 +29,9 @@
 
             3.  It is used when the propert name is store in a variable.
 
-            4.  when property name has space, special character,or start with umber  ( i.e. not a valid identifier )
+            4.  when property name has space, special character,or start with number ( i.e. not a valid identifier )
 
-            5. when we are working with dynamic keys such as API responses or loops.`
+            5.  when we are working with dynamic keys such as API responses or loops.`
 
 
                 const User1 = {

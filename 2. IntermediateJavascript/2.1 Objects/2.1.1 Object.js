@@ -1,4 +1,4 @@
-/*
+`
 
     Objects : 
 
@@ -10,11 +10,21 @@
 
             1.  Creating object
 
-                1. Object literals  
+                1.  Object literals  
 
-                2.  Constructor Function
+                2.  Using ES6 Classes
 
-                3.  Object.create()
+                3.  Facotry Function
+
+                4.  Object.create()
+
+                5.  Constructor Function
+
+                6.  Using New object Constructor
+
+                7.  Dynamic or computed property name
+
+                8.  Spread or clone or merge objects
 
             2.  Accessing & Updating objects
 
@@ -26,6 +36,12 @@
 
             6.  Object Method
 
+                1.  Object.freeze()
+
+                2.  Object.seal()
+
+                3.  Object.assign()  
+
             7.  Shallow vs Deep copy
 
                 1. Shallow Copy
@@ -34,12 +50,6 @@
 
             8.  Optional Chaining & Nullish Coalescing
 
-            9.  `this` keyword in object
+            9.  "this" keyword in object
 
-            10. object methods :
-
-                1.  Object.freeze()
-
-                2.  Object.seal()
-
-                3.  Object.assign()                                                                                             */
+      `                                                                                                 

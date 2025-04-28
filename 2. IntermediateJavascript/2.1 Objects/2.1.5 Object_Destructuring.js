@@ -23,7 +23,7 @@
 
             2.  Avoids repeatative dot notation
 
-            3.  Common in reac propos handeling & Node js API.
+            3.  Common in react props handeling & Node js API.
 
         3.  Renaming Variables :`
 
@@ -34,7 +34,7 @@
 
 `       4.  Setting Default Values : `
 
-            const {country ="India "} = user;
+            const {country ="India "} = user;               // if country property is not available then it will use india as a value otherwise it use value of property
 
             console.log(user)
 
@@ -59,8 +59,18 @@
 
             greet({name : "ravi",Age : 25})                                         // passed an object as a argument
 
+`       7.  Destructuring nested objects `
 
+            const porfile = {
+                user_name :"ravi",
+                userage : 25,
+                location : {
+                    city : "Pune",
+                    pin : 412105
+                }
+            }
 
+            const {user_name, userage, location : {city,pin}} = porfile;                // here nested properterties are acces throught key name insdie curly braces
             
 
 

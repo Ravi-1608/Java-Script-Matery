@@ -24,7 +24,8 @@
 
                         class User {
                         constructor(name, age) {
-                            (this.name = name), (this.age = age);
+                            (this.name = name),
+                            (this.age = age);
                         }
 
                         greet() {
@@ -100,7 +101,7 @@
 
                     3.  After that we can add property dynamically.   
                     
-                    4.  Not recomended to use it                                                        */
+                    4.  Not recomended to use it */                                                                                  
 
                         const User =   new Object();
 
@@ -138,7 +139,7 @@
 
                         const newObj = {...originalObj}                 // This creates a shollow copy of the object, which is useful when i need to avoide mutating original data.
 
-//                  3.  How to mer two objects :
+//                  3.  How to merge two objects :
 
                         const mergeObj = {...originalObj, ...newObj}
 
